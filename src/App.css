@@ -1,3 +1,12 @@
+html
+{
+width: 100%;
+margin: 0px;
+overflow-x:hidden;
+padding:0;
+overflow-y: visible;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +14,66 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.button{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  background-color:#00732F;
+  color: white;
+  border-radius: 2px;
+  font-family: "inter";
+  font-weight:700; 
+  letter-spacing: 0.025em;
+}
+.mainimg{
+  background-image: url("../src/Assets/mainimage.png");
+}
+
+.ytp-show-cards-title{
+  width: 0px !important;
+}
+
+.ytp-gradient-top{
+  display:none !important;
+}
+
+.desbutton{
+  transition: all 0.1s linear;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./Assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppinsblack';
+  src: url('./Assets/fonts/Poppins/Poppins-Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppinsthin';
+  src: url('./Assets/fonts/Poppins/Poppins-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppinsbold';
+  src: url('./Assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppinsmedium';
+  src: url('./Assets/fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./Assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+.descard:nth-child(even){
+  background-color: white;
+}
+
+.descard:nth-child(odd){
+  background-color: #E8FBFF
+  ;
 }
 
 @media (prefers-reduced-motion: no-preference) {
