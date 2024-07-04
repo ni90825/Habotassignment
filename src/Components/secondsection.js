@@ -18,7 +18,7 @@ return (
         <div className='button gap-2 w-fit px-16 py-3 mx-auto lg:mx-0'>Sign up Today!<span>&rarr;</span></div>
     </div>
 
-<div className='flex-1 flex lg:justify-end justify-center w-[95%] lg:w-[50%]'>
+<div className='flex-1 flex lg:justify-end justify-center w-[95%] lg:w-[50%] '>
     <div className='grid grid-cols-2 gap-y-6 gap-x-12 w-[97%] lg:w-[100%] xl:w-[80%] h-3/4 items-center justify-end'>
     {
     city.current.map((items)=>{
