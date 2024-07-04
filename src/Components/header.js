@@ -3,7 +3,7 @@ import darklogo from "../Assets/darklogo.svg"
 
 export default function Header() {
   return (
-   <header className='flex justify-between mx-10 my-4'>
+   <header className='flex justify-between mx-10 my-4 pt-4'>
    <div>
     <img src={darklogo} alt='logo'></img>
    </div>
